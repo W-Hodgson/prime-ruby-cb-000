@@ -1,6 +1,9 @@
 # Add  code here!
 def prime?(number)
-  number_array = 2...number-1
+  if number == 1 or number == 2
+    true
+  end
+  number_array = 3...number-1
   number_array.each do |num|
     if number % num == 0
       return true
