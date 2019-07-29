@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   if number <= 3
-
+    return number > 1
   end
   panultimate = number - 1
   number_array = 2...panultimate
