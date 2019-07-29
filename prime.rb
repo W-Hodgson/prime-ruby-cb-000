@@ -1,13 +1,7 @@
 # Add  code here!
 def prime?(number)
-  if number < 1
-    return false
-  end
-  if number == 1
-    return false
-  end
-  if number == 2
-    return true
+  if number <= 3
+
   end
   panultimate = number - 1
   number_array = 2...panultimate
