@@ -2,15 +2,15 @@
 def prime?(number)
   if number == 1
     return false
-  end 
+  end
   if number == 2
     return true
   end
   number_array = 3...number-1
   number_array.each do |num|
     if number % num == 0
-      return true
+      return false
     end
   end
-  return false
+  return true
 end
