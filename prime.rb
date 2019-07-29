@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   if number == 1 || number == 2
-    true
+    return true
   end
   number_array = 3...number-1
   number_array.each do |num|
