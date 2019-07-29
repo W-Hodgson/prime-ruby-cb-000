@@ -3,7 +3,8 @@ def prime?(number)
   number_array = 2...number-1
   number_array.each do |num|
     if number % num == 0
-
+      return true
     end
   end
+  return false
 end
